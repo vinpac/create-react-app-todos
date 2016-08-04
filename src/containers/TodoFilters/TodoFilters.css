@@ -1,0 +1,18 @@
+.todo-filters {
+  border-bottom: 1px solid #eee;
+}
+
+.todo-filter {
+  padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.todo-filter:hover {
+  color: #22AAFC
+}
+
+.todo-filter.active {
+  color: #22AAFC;
+  font-weight: 600;
+}

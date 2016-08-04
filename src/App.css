@@ -1,0 +1,16 @@
+
+body, button, input, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+textarea, input, button, textarea:focus, input:focus, button:focus {
+  outline: none
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 600px;
+  background: #fff;
+  min-height: 800px;
+}

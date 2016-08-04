@@ -1,0 +1,48 @@
+.todo {
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+}
+
+.todo:hover {
+  background: #f9f9f9
+}
+
+.todo.completed {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.checkbox > span, span.checkbox {
+  display: inline-block;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.todo .checkbox {
+  min-width: 18px;
+}
+
+.checkbox > input {
+  display: none;
+}
+
+.checkbox > input:checked + span,
+.todo.completed > span.checkbox {
+  background: #22AAFC;
+  border-color: #22AAFC;
+}
+
+.todo-text {
+  word-wrap: break-word;
+  overflow: hidden;
+}

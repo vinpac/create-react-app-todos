@@ -1,0 +1,31 @@
+.todo-composer {
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-composer > form {
+  display: flex;
+}
+
+.todo-composer > form > textarea {
+  border: none;
+  width: auto;
+  display: flex;
+  flex: 1 1 auto;
+  float: left;
+  resize: none;
+  font-size: 18px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.todo-composer > form >  button {
+  display: flex;
+  border: none;
+  background: none;
+  color: #315efb;
+  font-weight: 500;
+  cursor: pointer;
+  float: left;
+  font-style: 16px;
+  padding: 15px 25px;
+}
