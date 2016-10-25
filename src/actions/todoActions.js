@@ -14,3 +14,10 @@ export const toggleTodo = (id) => ({
   type: TOGGLE_TODO,
   id,
 })
+
+
+export function asyncAction(text) {
+  return (dispatch) => {
+    dispatch(addTodo(text))
+  }
+}
